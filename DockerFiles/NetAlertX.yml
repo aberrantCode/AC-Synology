@@ -1,0 +1,19 @@
+services:
+    netalertx:
+        container_name: NetAlertX
+        healthcheck:
+            test: curl -f http://localhost:20211/ || exit 1
+        network_mode: host
+        security_opt:
+            - no-new-privileges:true
+        volumes:
+            - ./config:/app/config:rw
+            - ./db:/app/db:rw
+            - ./logs:/app/front/log:rw
+        environment:
+            - TZ=America/New_York
+            - PORT=20211
+            - HOST_USER_ID=1026
+            - HOST_USER_GID=100
+        restart: unless-stopped
+        image: jokobsk/netalertx:latest

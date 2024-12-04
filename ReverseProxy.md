@@ -11,6 +11,6 @@ Reverse Proxies
 | [nas](https://nas.opbta.com) | 443 | localhost | 5001 |
 | [netalertx](http://netalertx.opbta.com) | 80 | localhost | 5001 |
 | [phone](http://phone.opbta.com) | 80 | localhost | 8081 |
-| [portainer](http://portainer.opbta.com) | 80 | localhost | 9081 |
+| [portainer](http://portainer.opbta.com) | 443 | localhost | 9444 |
 | [speed](http://speed.opbta.com) | 80 | localhost | 9082 |
-| [uptime](http://uptime.opbta.com) | 80 | localhost | 9081 |
+| [webcheck](http://webcheck.opbta.com) | 80 | localhost | 9081 |

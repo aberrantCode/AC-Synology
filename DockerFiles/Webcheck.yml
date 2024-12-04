@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  unbound:
+    container_name: webcheck
+    image: lissy93/web-check:latest
+    restart: unless-stopped
+    ports:
+      - 9081:3000/tcp

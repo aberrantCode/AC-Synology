@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    phoneinfoga:
+      container_name: phoneinfoga
+      restart: unless-stopped
+      image: sundowndev/phoneinfoga:latest
+      command:
+        - "serve"
+      ports:
+        - "8081:5000"
+      environment:
+        NUMVERIFY_API_KEY: "QeqmId5LLKLDEo21S1bDu8I3Mqevpizb"
+        GOOGLECSE_CX: "707346bceaf614557"
+        GOOGLE_API_KEY: "AIzaSyAhCySBOIGM8rWJGnbxa7cG9bBx1dVA57U"
+        GOOGLECSE_MAX_RESULTS: 10
