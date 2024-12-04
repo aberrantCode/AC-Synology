@@ -12,5 +12,6 @@ Reverse Proxies
 | [netalertx](http://netalertx.opbta.com) | 80 | localhost | 5001 |
 | [phone](http://phone.opbta.com) | 80 | localhost | 8081 |
 | [portainer](http://portainer.opbta.com) | 80 | localhost | 9081 |
+| [ports](http://ports.opbta.com) | 443 | localhost | 9443 |
 | [speed](http://speed.opbta.com) | 80 | localhost | 9082 |
 | [uptime](http://uptime.opbta.com) | 80 | localhost | 9081 |
